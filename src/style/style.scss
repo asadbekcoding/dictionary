@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-family);
+    background: var(--body-bg);
+}
+
+body.dark{
+    --body-bg: #050505;
+    --work_p: #FFF;
+    --dark-img: block;
+    --light-img: none;
+    --search-bg: #1F1F1F;
+    --word-color: #FFF;
+    --shadow-bg: 0px 5px 30px 0px #A445ED;;
+}
+
+body.serif{
+    --font-family: 'Lora';
+}
+
+body.mono{
+    --font-family: 'Inconsolata';
+}
+
+body.inter{
+    --font-family: 'Inter';
+}
+
+input, button{
+    font-family: var(--font-family);
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+

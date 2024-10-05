@@ -1,0 +1,10 @@
+:root{
+    --body-bg: #FFF;
+    --work_p: #2D2D2D;
+    --dark-img: none;
+    --light-img: block;
+    --search-bg: #F4F4F4;
+    --word-color: #2D2D2D;
+    --shadow-bg: 0px 5px 30px 0px rgba(0, 0, 0, 0.10);
+    --font-family: 'Inter';
+}

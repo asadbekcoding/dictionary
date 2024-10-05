@@ -1,0 +1,83 @@
+.navbar{
+    width: 100%;
+    max-width: 766px;
+    padding: 58px 15px 0px 15px;
+    margin: 0 auto;
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: space-between;
+    .navbar_element{
+        display: flex;
+        align-items: center;
+        column-gap: 26px;
+        .navbar_font{
+            position: relative;
+            cursor: pointer;
+            .dropdown{
+                display: flex;
+                align-items: center;
+                gap: 18px;
+                p{
+                    color:  var(--work_p);
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+                .rotate{
+                    transform: rotate(180deg);
+                }
+            }
+            .list{
+                width: 183px;
+                border-radius: 16px;
+                background: var(--search-bg);
+                box-shadow: var(--shadow-bg);
+                padding: 24px 0px 24px 24px;
+                position: absolute;
+                top: 35px;
+                left: -50px;
+                ul{
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 16px;
+                    li{
+                        color: var(--word-color);
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        &:hover{
+                            color: #A445ED;
+                        }
+                    }
+                }
+            }
+        }
+        .line{
+            width: 1px;
+            height: 32px;
+            background: var(--E9E9E9, #E9E9E9);
+        }
+        .dark_mode{
+            cursor: pointer;
+            .light_img{
+                display: var(--light-img);
+            }
+            .dark_img{
+                display: var(--dark-img);
+            }
+        }
+    }
+}
+@media(max-width: 425px){
+    .navbar{
+        margin-bottom: 24px;
+        padding: 24px 15px 0px 15px;
+        .navbar_element{
+            .navbar_font{
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
