@@ -26,7 +26,7 @@ export default function Main({ data }) {
                    item
                   ); 
               }}
-              src="../public/images/player_img.svg"
+              src="./images/player_img.svg"
               alt="no-foto"
             /> : null
             ))
@@ -75,7 +75,7 @@ export default function Main({ data }) {
           <p>Source</p>
           <div className={style['link']}>
             <a href={data[0]?.sourceUrls[0]}>{data[0]?.sourceUrls[0]}</a>
-            <img src="../public/images/link_img.svg" alt="" />
+            <img src="./images/link_img.svg" alt="" />
           </div>
         </div>
       </div>

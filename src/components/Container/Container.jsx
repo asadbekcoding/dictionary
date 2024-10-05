@@ -10,7 +10,6 @@ export default function Container(){
     const [change, setChange] = useState(1)
     const [data, setData] = useState({})
     const [isOpen, setIsOpen] = useState(false)
-    const [loading, setLoading] = useState(false)
     const [notfound, setNotfound] = useState(false)
     
 
