@@ -28,7 +28,7 @@ export default function Header({ hiDark }) {
     <>
       <div className={style['navbar']}>
         <div className={style['logo_img']}>
-          <img src="../public/images/icon_book.svg" alt="error-foto" />
+          <img src="./images/icon_book.svg" alt="error-foto" />
         </div>
         <div className={style['navbar_element']}>
           <div className={style['navbar_font']}>
@@ -36,7 +36,7 @@ export default function Header({ hiDark }) {
               <p>{filter}</p>
               <img
                 className={isOpenDropDown ? style['rotate'] : null}
-                src="../public/images/strelka.svg"
+                src="./images/strelka.svg"
                 alt="no-foto"
               />
             </div>
@@ -58,12 +58,12 @@ export default function Header({ hiDark }) {
           <div onClick={hiDark} className={style['dark_mode']}>
             <img
               className={style['light_img']}
-              src="../public/images/lightmode_img.svg"
+              src="./images/lightmode_img.svg"
               alt="no-foto"
             />
             <img
               className={style['dark_img']}
-              src="../public/images/darkmode_img.svg"
+              src="./images/darkmode_img.svg"
               alt="no-foto"
             />
           </div>
