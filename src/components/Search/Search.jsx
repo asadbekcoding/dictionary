@@ -19,7 +19,7 @@ export default function Search({setInpValue, setChange, setIsOpen}){
            <div className={style['search']}>
             <div className={style['input']} id='inputdiv'>
                 <input ref={ref} type="text" placeholder='Search for any word…'/>
-                <img onClick={handleSubmit} src="../src/assets/images/search_img.svg" alt="" />
+                <img onClick={handleSubmit} src="../public/images/search_img.svg" alt="" />
             </div>
         </div>
         </form>
