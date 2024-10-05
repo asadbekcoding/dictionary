@@ -8,7 +8,6 @@ export default function Main({ data }) {
   let newmp3 = data[0].phonetics.map((item, ind) => {
       return  item.audio
   })
-  console.log(newmp3);
 
   return (
     <>

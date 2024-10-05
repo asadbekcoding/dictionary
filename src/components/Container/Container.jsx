@@ -42,8 +42,6 @@ export default function Container(){
       }
     }, [change])
 
-console.log(data);
-
     return(
         <>
         <Header hiDark={hiDark}/>
